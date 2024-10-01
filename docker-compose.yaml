@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: php_app
+    volumes:
+      - .:/var/www/html
+    stdin_open: true
+    tty: true

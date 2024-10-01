@@ -1,0 +1,6 @@
+{
+    "require": {
+        "yoomoney/yookassa-sdk-php": "*",
+        "ext-json": "*"
+    }
+}

@@ -1,0 +1,39 @@
+# Файлы и папки, относящиеся к Composer
+/vendor/
+/composer.lock
+
+# Кэш-папки, используемые различными инструментами
+/cache/
+/node_modules/
+*.log
+*.cache
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+*.pid
+
+# Папки с конфигурациями IDE (например, PhpStorm)
+.idea/
+.vscode/
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Папки с загрузками и кэшами
+/public/uploads/
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# Папка для сессий и временных файлов (если используется)
+tmp/
+sessions/
+
+# Игнорирование настроек операционной системы
+.DS_Store      # macOS
+Thumbs.db      # Windows
